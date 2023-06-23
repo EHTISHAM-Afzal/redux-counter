@@ -1,12 +1,13 @@
+import { Box, Typography, Button } from '@mui/material'
 import React from 'react'
-import Counter from './features/counter/Counter'
+import Counter from './features/Counter'
 
 
 const App = () => {
   return (
-    <main className='app'>
+    <Box p={2} >
       <Counter />
-    </main>
+    </Box>
   )
 }
 
