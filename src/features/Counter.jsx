@@ -38,7 +38,7 @@ const Counter = () => {
         >
           +
         </Button>
-        <Typography variant="h1" color="initial" sx={{  maxWidth: "50vw" , overflow: "auto" }}>
+        <Typography variant="h1" color="initial" sx={{  maxWidth: "70vw" , overflow: "auto" }}>
           {count}
         </Typography>
         <Button
